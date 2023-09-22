@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://kit.fontawesome.com/14e68733f7.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- <input class="task-value" type="text" placeholder="Digite a sua tarefa..." name="task"> -->
+    <div class="head">
+    <h1>To-Do List</h1>
+    <button class="button-task-add" type="submit" onclick="addTask()">Adicionar</button>
+    </div>
+    <ul class="task-list">
+      <!-- <li class="tasks">
+        <i class="fa-solid fa-circle-check"></i>
+        <p>alguma tarefa</p>
+        <i class="fa-regular fa-trash-can"></i>
+      </li> -->
+    </ul>
+
+
+  </div>
+
+  <div class="form-description">
+    
+      <label for="task">Titulo de sua tarefa</label>
+      <input class="task-title" type="text" placeholder="Digite a sua tarefa..."  required>
+      <label>Digite o dia que quer comecar</label>
+      <input class="task-date-inicial" type="date" placeholder="Digite o dia que quer comecar" required>
+      <label>Digite o dia que pretende concluir</label>
+      <input class="task-date-end" type="date" placeholder="Digite o dia que quer comecar" required>
+      <label>Faca uma breve descricao de sua tarefa</label>
+      <textarea class="description"></textarea>
+      <button onclick="fisnhedTask()">Criar Tarefa</button>
+    
+  </div>
+
+  <script src="/js/script.js"></script>
+
+</body>
+
+</html>

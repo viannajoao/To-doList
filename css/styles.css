@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #008B8B ;
+}
+
+.container{
+  width: 30vw;
+  
+
+  background-color: #FFFFFF;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  
+
+}
+
+.head{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .container h1{
+  display: inline;
+} */
+
+.form-description{
+  /* width: 30vw; */
+  max-width: 30vw;
+  margin: auto;
+  margin-top: 3vw;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+
+  padding: 20px;
+
+  display: none;
+}
+
+.form-description input{
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+.form-description button:hover{
+  opacity: 0.8;
+  box-shadow: 7px 10px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.form-description button{
+  width: 100%;
+  padding: 10px;
+  background-color: #008B8B;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+}
+
+label{
+  display: block;
+}
+
+.task-value{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 20vw;
+  padding: 10px 10px;
+
+  border: 1px solid #000000;
+}
+
+.button-task-add{
+  background-color: #008B8B;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+
+  width: 8vw;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: bold;
+  right: 0px;
+  
+}
+
+.button-task-add:hover{
+  opacity: 0.8;
+  box-shadow: 8px 10px 6px rgba(0, 0, 0, 0.2);
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+} 
+
+.task-list{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+
+  /* background-color: red; */
+
+}
+
+.tasks{
+  display: flex;
+  margin-bottom: 20px;
+
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 10px;
+  background-color: #e6e6e6;
+  cursor: pointer;
+  transition: 0.7 ease-in-out;
+}
+
+.tasks:hover{
+  opacity: 0.8;
+  box-shadow: 8px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+.done{
+  background-color: #008B8B;
+  
+}
+
+.done p{
+  text-decoration: line-through;
+}
